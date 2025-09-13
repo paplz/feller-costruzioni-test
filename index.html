@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="resources/favicon.jpg">
 </head>
-
+<!-- TODO side menu che esce come disegnato; spacer in fondo a services; immagini riordinate staticamente per essere più squadrate? -->
 <body>
     <!-- Header -->
     <div class="header gradient-background">
@@ -24,10 +24,10 @@
 
     <!-- Side menu -->
     <div class="fixed-menu"><!-- TODO TODO TODO side menu could hang on top, fixed -->
-        <a href="index.html"><u>Home</u></a>
-        <a href="about.html"><u>Chi siamo</u></a>
-        <a href="services.html"><u>Servizi</u></a>
-        <a href="contact.html"><u>Contatti</u></a>
+        <a href="index.html" class="fixed-menu-voice"><u>Home</u></a>
+        <a href="about.html" class="fixed-menu-voice"><u>Chi siamo</u></a>
+        <a href="services.html" class="fixed-menu-voice"><u>Servizi</u></a>
+        <a href="contact.html" class="fixed-menu-voice"><u>Contatti</u></a>
     </div>
 
     <!-- Page content -->
@@ -37,15 +37,12 @@
             delle costruzioni
         </div>
         <div class="spacer center">
-            <div class="contents-compact center">
-                <div class="images">
-                    <img class="content-image round-corners" src="resources/home-1.jpg"
-                        alt="Posizionamento delle travi">
-                    <img class="content-image round-corners" src="resources/home-2.jpg"
-                        alt="Tetto in costruzione con le travi posizionate">
-                    <img class="content-image round-corners" src="resources/home-3.jpg"
-                        alt=""><!-- TODO non dimenticare gli ALT (descrizioni di ogni immagine) -->
+            <div class="images half-spacer">
+                <div class="small-image-container">
+                    <img class="small-image round-corners img-shadow" src="resources/home-3.jpg" alt="">
+                    <img class="small-image round-corners img-shadow" src="resources/home-1.jpg" alt="">
                 </div>
+                <img class="big-image round-corners img-shadow" src="resources/home-2.jpg" alt="">
             </div>
         </div>
         <div class="spacer content">
