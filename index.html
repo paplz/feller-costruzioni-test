@@ -1,68 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feller costruzioni tetti</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="resources/favicon.jpg">
+	<title>Feller costruzioni tetti</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<!-- TODO side menu che esce come disegnato; spacer in fondo a services; immagini riordinate staticamente per essere più squadrate? -->
+
 <body>
-    <!-- Header -->
-    <div class="header gradient-background">
-        <div class="title">
-            Home Page
-        </div>
-        <span class="center">
-            <a href="index.html">
-                <img class="logo" src="resources/logo.svg" alt="logo">
-            </a>
-        </span>
-    </div>
 
-    <!-- Side menu -->
-    <div class="fixed-menu"><!-- TODO TODO TODO side menu could hang on top, fixed -->
-        <a href="index.html" class="fixed-menu-voice"><u>Home</u></a>
-        <a href="about.html" class="fixed-menu-voice"><u>Chi siamo</u></a>
-        <a href="services.html" class="fixed-menu-voice"><u>Servizi</u></a>
-        <a href="contact.html" class="fixed-menu-voice"><u>Contatti</u></a>
-    </div>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-    <!-- Page content -->
-    <div class="page-content">
-        <div class="content">
-            La nostra azienda si occupa di coperture e tutto quel che riguarda la lavorazione del legno nell'ambito
-            delle costruzioni
-        </div>
-        <div class="spacer center">
-            <div class="images half-spacer">
-                <div class="small-image-container">
-                    <img class="small-image round-corners img-shadow" src="resources/home-3.jpg" alt="">
-                    <img class="small-image round-corners img-shadow" src="resources/home-1.jpg" alt="">
-                </div>
-                <img class="big-image round-corners img-shadow" src="resources/home-2.jpg" alt="">
-            </div>
-        </div>
-        <div class="spacer content">
-            Ci occupiamo del vostro tetto dalla fornitura dei materiali, della posa e della lattoneria fino ai dettagli
-            di rifinitura
-        </div>
-    </div>
+		<!-- Header -->
+		<header id="header" class="alt">
+			<span class="logo"><img src="resources/logo.svg" alt="" /></span>
+		</header>
 
-    <!-- Footer -->
-    <div class="footer center">
-        <div>
-            <h2>INFO LEGALI</h2>
-            <p class="half-spacer">
-                Sede legale<br>
-                Volano (TN), via xxxxxxxx 00<br>
-                <br>
-                Partita IVA: 01730320245
-            </p>
-        </div>
-    </div>
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="services.html">Servizi</a></li>
+				<li><a href="about.html">Chi Siamo</a></li>
+				<li><a href="contact.html">Contatti</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Back to top button -->
+			<a class="to-toc" href="#top">
+				<img href="#top" src="resources/arrow_up.svg"></img>
+			</a>
+
+
+			<!-- Introduction -->
+			<section id="intro" class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Introduzione</h2>
+						</header>
+						<p>La nostra azienda si occupa del rifacimento di tetti a 360 gradi, dalla struttura principale
+							in legno, il pacchetto termico, fino al manto, in tegole, lattoneria o coperture aggrafffate
+							e grecate.
+							Siamo una carpenteria in legno specializzata anche in case in legno e lattoneria per dare al
+							cliente un tetto completo e di alta qualità con materiali ricercati.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Section -->
+			<section id="first" class="main">
+				<header class="major">
+					<h2>Ci occupiamo di</h2>
+				</header>
+				<ul class="features">
+					<li class="style1">
+						<a href="services.html">
+							<div class="column-header">
+								<h2>RIFACIMENTO TETTI</h2>
+							</div>
+							<div class="column">
+								<img src="resources/home-col1-1.jpg" alt="">
+								<img src="resources/home-col1-2.jpg" alt="">
+								<img src="resources/home-col1-3.jpg" alt="">
+							</div>
+						</a>
+					</li>
+					<li class="style3">
+						<a href="services.html#lattoneria">
+							<div class="column-header">
+								<h2>LATTONERIA</h2>
+							</div>
+							<div class="column">
+								<img src="resources/lattoneria-1.jpg" alt="">
+								<img src="resources/lattoneria-2.jpg" alt="">
+								<img src="resources/lattoneria-3.jpg" alt="">
+							</div>
+						</a>
+					</li>
+					<li class="style5">
+						<a href="services.html">
+							<div class="column-header">
+								<h2>CASE IN LEGNO</h2>
+							</div>
+							<div class="column">
+								<img src="resources/home-col3-1.jpg" alt="">
+								<img src="resources/home-col3-2.jpg" alt="">
+								<img src="resources/home-col3-3.jpg" alt="">
+							</div>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section>
+				<h2>Chi siamo</h2>
+				<p>Siamo un'impresa familiare con una lunga tradizione nel settore dell'edilizia, specializzati nella
+					costruzione di tetti, ristrutturazioni complete, case in legno e lattoneria.
+					Offriamo anche soluzioni su misura per la protezione dall'acqua, come impermeabilizzazioni,
+					coperture e sistemi di drenaggio.</p>
+				<div class="footer-about">
+					<ul class="actions">
+						<li><a href="about.html" class="button">Scopri di più</a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/fellercostruzioni__"
+								class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2>Info legali</h2>
+				<dl class="alt">
+					<dt>Impresa</dt>
+					<dd>FELLER COSTRUZIONI SAS</dd>
+					<dt>Sede legale</dt>
+					<dd>Via III Novembre 4c &bull; Volano, TN &bull; IT</dd>
+					<dt>Telefono</dt>
+					<dd>345 093 3518<br>335 777 9207</dd>
+					<dt>Email</dt>
+					<dd><a href="mailto:fellercostruzioni@gmail.com">fellercostruzioni@gmail.com</a></dd>
+					<dt>Partita IVA</dt>
+					<dd>02484200221</dd>
+				</dl>
+			</section>
+		</footer>
+
+	</div>
 </body>
 
 </html>

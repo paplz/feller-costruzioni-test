@@ -1,156 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feller costruzioni tetti</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="resources/favicon.jpg">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
 <body>
-    <!-- Header -->
-    <div class="header gradient-background">
-        <div class="title">
-            Servizi
-        </div>
-        <span class="center">
-            <a href="index.html">
-                <img class="logo" src="resources/logo.svg" alt="logo">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <span class="logo"><img src="resources/logo.svg" alt="" /></span>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Servizi</a></li>
+                <li><a href="about.html">Chi Siamo</a></li>
+                <li><a href="contact.html">Contatti</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Table of contents -->
+            <div class="toc center main">
+                <details class="center">
+                    <summary>
+                        <h1>Contenuti della pagina</h1>
+                    </summary>
+                    <a href="#first">> RIGUARDO AL NUOVO</a>
+                    <a href="#second">> LA MANUTENZIONE</a>
+                    <a href="#third">> LATTONERIA</a>
+                    <a href="#fourth">> LE OPERE INTERNE</a>
+                    <a href="#fifth">> LUCERNARI</a>
+                </details>
+            </div>
+            <!-- Back to top button -->
+            <a class="to-toc" href="#top">
+                <img href="#top" src="resources/arrow_up.svg"></img>
             </a>
-        </span>
-    </div>
 
-    <!-- Side menu -->
-    <div class="fixed-menu">
-        <a href="index.html" class="fixed-menu-voice"><u>Home</u></a>
-        <a href="about.html" class="fixed-menu-voice"><u>Chi siamo</u></a>
-        <a href="services.html" class="fixed-menu-voice"><u>Servizi</u></a>
-        <a href="contact.html" class="fixed-menu-voice"><u>Contatti</u></a>
-    </div>
-
-    <!-- Table of contents -->
-    <div class="toc center">
-        <details class="center">
-            <summary>
-                <h1>Contenuti della pagina</h1>
-            </summary>
-            <a href="#tetti-nuovi">> RIGUARDO AL NUOVO</a>
-            <a href="#manutenzione">> LA MANUTENZIONE</a>
-            <a href="#lattoneria">> LATTONERIA</a>
-            <a href="#opere-interne">> LE OPERE INTERNE</a>
-            <a href="#lucernari">> LUCERNARI</a>
-        </details>
-    </div>
-    <!-- Back to top button -->
-    <a class="to-toc" href="#top">
-        <img href="#top" src="resources/arrow_up.svg"></img>
-    </a>
-
-
-    <!-- Page content -->
-    <div class="page-content">
-        <h1 class="content-title" id="tetti-nuovi">RIGUARDO AL NUOVO</h1>
-        <div class="content-block center">
-            <div class="contents-text align-left">
-                I servizi che offriamo riguardo al nuovo consistono in fornitura e posa della copertura
-            </div>
-            <div class="images half-spacer">
-                <div class="small-image-container">
-                    <img class="small-image round-corners img-shadow" src="resources/services-1.jpg" alt="">
-                    <img class="small-image round-corners img-shadow" src="resources/services-2.jpg" alt="">
+            <!-- First Section -->
+            <section id="first" class="main">
+                <header class="major">
+                    <h2>Riguardo al nuovo</h2>
+                    <p>I servizi che offriamo riguardo al nuovo consistono in fornitura e posa della copertura.</p>
+                </header>
+                <div class="service">
+                    <img src="resources/services-1.jpg" alt="">
+                    <img src="resources/services-2.jpg" alt="">
+                    <img src="resources/services-3.jpg" alt="">
                 </div>
-                <img class="big-image round-corners img-shadow" src="resources/services-3.jpg" alt="">
-            </div>
-        </div>
+            </section>
 
-        <hr>
-
-        <h1 class="content-title" id="manutenzione">LA MANUTENZIONE</h1>
-        <div class="content-block center">
-            <div class="content align-left">
-                A proposito della manutenzione interveniamo su tetti vecchi in caso di perdite idriche o di coppi
-                pericolanti, cambiamo a richiesta le travi e perline che siano in gronda o interne all'edificio.
-            </div>
-            <div class="spacer contents">
-                <div class="content align-left">
-                    Ci occupiamo del rifacimento del tetto
+            <!-- Second Section -->
+            <section id="second" class="main">
+                <header class="major">
+                    <h2>La manutenzione</h2>
+                    <p>A proposito della manutenzione interveniamo su tetti vecchi in caso di perdite idriche o di coppi
+                        pericolanti, cambiamo a richiesta le travi e perline che siano in gronda o interne
+                        all'edificio.<br>
+                        Ci occupiamo del rifacimento del tetto, della posa di guaine e isolanti quali lana di roccia e
+                        lana di
+                        legno.<br>
+                        Togliamo il vecchio per ridarvi il nuovo.
+                    </p>
+                </header>
+                <div class="service">
+                    <img src="resources/services-4.jpg" alt="">
+                    <img src="resources/services-5.jpg" alt="">
+                    <img src="resources/services-6.jpg" alt="">
+                    <img src="resources/services-7.jpg" alt="">
                 </div>
-                <img class="content-image round-corners img-shadow" src="resources/services-4.jpg" alt="">
-            </div>
+            </section>
 
-            <div class="spacer contents-text align-left">
-                Posiamo guaine e isolanti quali lana di roccia e lana di legno
-            </div>
-            <div class="images half-spacer">
-                <img class="content-image round-corners img-shadow" src="resources/services-5.jpg" alt="">
-                <img class="content-image round-corners img-shadow" src="resources/services-6.jpg" alt="">
-            </div>
-
-            <div class="spacer contents">
-                <div class="content align-left">
-                    Togliamo il vecchio per ridarvi il nuovo
+            <!-- Third Section -->
+            <section id="third" class="main">
+                <header class="major">
+                    <h2>Lattoneria</h2>
+                    <p>Il nostro compito e servizio è finire la copertura con la lattoneria che forniamo e posiamo in
+                        maniera indipendente.<br>
+                        Ci occupiamo di camini, sfiati e tetti in lamiera.</p>
+                </header>
+                <div class="service">
+                    <img src="resources/services-8.jpg" alt="">
+                    <img src="resources/services-9.jpg" alt="">
+                    <img src="resources/services-10.jpg" alt="">
                 </div>
-                <img class="content-image round-corners img-shadow" src="resources/services-7.jpg" alt="">
-            </div>
+            </section>
+
+            <!-- Fourth Section -->
+            <section id="fourth" class="main">
+                <header class="major">
+                    <h2>Le opere interne</h2>
+                    <p>Abbelliamo l'ambiente interno con strutture e pannelli a seconda della vostra esigenza.</p>
+                </header>
+                <div class="service">
+                    <img src="resources/services-11.jpg" alt="">
+                    <img src="resources/services-12.jpg" alt="">
+                </div>
+            </section>
+
+            <!-- Fifth Section -->
+            <section id="fifth" class="main">
+                <header class="major">
+                    <h2>Lucernari</h2>
+                    <p>Nei nostri lavori è presente Velux* che forniamo, posiamo e ne curiamo la manutenzione su
+                        richiesta. Installiamo della gamma di articoli dell'azienda la tapparella motorizzata e la
+                        tendina interna.</p>
+                </header>
+                <div class="service">
+                    <img src="resources/services-13.jpg" alt="">
+                </div>
+            </section>
+
+            <!-- Get Started -->
+            <!-- <section id="cta" class="main special">
+				<header class="major">
+					<h2>Congue imperdiet</h2>
+					<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+						posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+				</header>
+				<footer class="major">
+					<ul class="actions special">
+						<li><a href="generic.html" class="button primary">Get Started</a></li>
+						<li><a href="generic.html" class="button">Learn More</a></li>
+					</ul>
+				</footer>
+			</section> -->
+
         </div>
 
-        <hr>
+        <!-- Footer -->
+        <footer id="footer">
+            <section>
+                <h2>Chi siamo</h2>
+                <p>Siamo un'impresa familiare con una lunga tradizione nel settore dell'edilizia, specializzati nella
+                    costruzione di tetti, ristrutturazioni complete, case in legno e lattoneria.
+                    Offriamo anche soluzioni su misura per la protezione dall'acqua, come impermeabilizzazioni,
+                    coperture e sistemi di drenaggio.</p>
+                <div class="footer-about">
+                    <ul class="actions">
+                        <li><a href="about.html" class="button">Scopri di più</a></li>
+                    </ul>
+                    <ul class="icons">
+                        <li><a href="https://www.instagram.com/fellercostruzioni__"
+                                class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Info legali</h2>
+                <dl class="alt">
+                    <dt>Impresa</dt>
+                    <dd>FELLER COSTRUZIONI SAS</dd>
+                    <dt>Sede legale</dt>
+                    <dd>Via III Novembre 4c &bull; Volano, TN &bull; IT</dd>
+                    <dt>Telefono</dt>
+                    <dd>345 093 3518<br>335 777 9207</dd>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:fellercostruzioni@gmail.com">fellercostruzioni@gmail.com</a></dd>
+                    <dt>Partita IVA</dt>
+                    <dd>02484200221</dd>
+                </dl>
+            </section>
+        </footer>
 
-        <h1 class="content-title" id="lattoneria">LATTONERIA</h1>
-        <div class="content-block center">
-            <div class="content align-left">
-                Nostro compito e servizio è finire la copertura con la lattoneria che forniamo e posiamo in maniera
-                indipendente
-            </div>
-            <img class="half-spacer content-image round-corners img-shadow" src="resources/services-8.jpg" alt="">
-
-            <div class="spacer contents-text align-left">
-                Camini, sfiati e tetti in lamiera
-            </div>
-            <div class="images half-spacer">
-                <img class="content-image round-corners img-shadow" src="resources/services-9.jpg" alt="">
-                <img class="content-image round-corners img-shadow" src="resources/services-10.jpg" alt="">
-            </div>
-        </div>
-
-        <hr>
-
-        <h1 class="content-title" id="opere-interne">LE OPERE INTERNE</h1>
-        <div class="content-block center">
-            <div class="content">
-                Abbelliamo l'ambiente interno con strutture e pannelli a seconda della vostra esigenza
-            </div>
-            <div class="images spacer">
-                <img class="content-image round-corners img-shadow" src="resources/services-11.jpg" alt="">
-                <img class="content-image round-corners img-shadow" src="resources/services-12.jpg" alt="">
-            </div>
-        </div>
-
-        <hr>
-
-        <h1 class="content-title" id="lucernari">LUCERNARI</h1>
-        <div class="content-block center">
-            <div class="content align-left">
-                Nei nostri lavori è presente Velux* che forniamo, posiamo e ne curiamo la manutenzione su richiesta.
-                Installiamo della gamma di articoli dell'azienda la tapparella motorizzata e la tendina interna
-            </div>
-            <img class="content-image round-corners img-shadow half-spacer" src="resources/services-13.jpg" alt="">
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer center">
-        <div>
-            <h2>INFO LEGALI</h2>
-            <p class="half-spacer">
-                Sede legale<br>
-                Volano (TN), via xxxxxxxx 00<br>
-                <br>
-                Partita IVA: 01730320245
-            </p>
-        </div>
     </div>
 </body>
 
