@@ -2682,7 +2682,7 @@ ul.actions.fit.stacked {
 		flex-shrink: 1;
 		padding: 1em 0 0 0;
 		text-align: center;
-		width: 100%;
+		/* width: 100%; */
 	}
 
 	ul.actions:not(.fixed) li>* {
@@ -3414,14 +3414,28 @@ table.alt tbody tr td {
 	font-size: 0.9em;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 480px) {
+	#nav ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 
 	#nav {
-		display: none;
+		/* display: none; */
+		max-width: calc(100% - 2em);
+		height: 104px;
 	}
 
 	#nav+#main {
 		padding-top: 0;
+	}
+
+	#main {
+		margin-top: 104px;
 	}
 
 }
@@ -3777,6 +3791,15 @@ table.alt tbody tr td {
 		border-radius: 0;
 	}
 
+	#nav {
+		max-width: 100%;
+		height: 104px;
+	}
+
+	#main {
+		margin-top: 104px;
+	}
+
 }
 
 /* Footer */
@@ -4037,34 +4060,48 @@ dl.contact-info-list dd {
 
 
 summary::before {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 summary {
-    list-style: none;
-    /* hide the default arrow */
-    cursor: pointer;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    /* space between arrow and title */
-    gap: 12px;
+	list-style: none;
+	/* hide the default arrow */
+	cursor: pointer;
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	/* space between arrow and title */
+	gap: 12px;
 }
 
 summary::before {
-    /* add custom marker */
-    content: "▶";
-    transition: transform 0.15s ease;
+	/* add custom marker */
+	content: "▶";
+	transition: transform 0.15s ease;
 }
 
 details[open] summary::before {
-    /* rotate the arrow */
-    transform: rotate(90deg);
+	/* rotate the arrow */
+	transform: rotate(90deg);
 }
 
 details a {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 8px;
-    font-size: 26px;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 8px;
+	font-size: 26px;
+}
+
+
+@media screen and (max-width: 360px) {
+	.footer-about {
+		display: flex;
+		justify-content: flex-start;
+		gap: 0;
+		flex-direction: column;
+	}
+
+	ul.actions li {
+		width: 80%;
+	}
 }
