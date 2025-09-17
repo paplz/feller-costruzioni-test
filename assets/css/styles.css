@@ -4013,6 +4013,14 @@ dl.contact-info-list dd {
 	color: #000000;
 }
 
+@media screen and (max-width: 480px) {
+
+	dl.contact-info-list dd {
+		margin: 0 0 0.85em 4em;
+	}
+
+}
+
 .contact {
 	display: flex;
 	flex-direction: column;
